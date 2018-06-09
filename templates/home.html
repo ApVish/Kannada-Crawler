@@ -1,0 +1,68 @@
+
+
+<!DOCTYPE html>
+<html>
+<title>Kannada Crawler</title>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<html lang="kn"></html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskannada.css);
+            body { font-family: "Noto Sans Kannada", sans-serif;}
+
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+        <form action="/demo" method="post">
+            <h1 class="w3-text-red" >Kannada Crawler</h1>	
+        <input lang="kn" type="search" name="ip"  />
+        <input type="submit" value="ಹುಡುಕಿ"/>		
+       				
+   </form>
+  </div>
+</div>
+
+
+
+
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+        <br><br><br><br>
+     
+      <!--{% for line in data %}-->
+
+                     <p>{{data}}</p>
+
+      <!--{% endfor %}-->
+    </div>
+    
+  </div>
+
+  
+
+  
+  <footer id="myFooter">
+
+    <div class="w3-container w3-theme-l1">
+      <p>Apoorva V</p>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+
+</body>
+</html>
